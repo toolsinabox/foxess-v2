@@ -49,7 +49,7 @@ This integration attempts to connect to Foxess Cloud V2 using username/password 
 4. Search for "Foxess V2"
 
 5. Enter your credentials:
-   - **Username**: `eddie@toolsinabox.com.au` (your Foxess Cloud email)
+   - **Username**: `email@address.com` (your Foxess Cloud email)
    - **Password**: Your Foxess Cloud password
 
 ## Testing the Integration
@@ -145,8 +145,8 @@ async def test():
     session = aiohttp.ClientSession()
     
     login_data = {
-        "user": "eddie@toolsinabox.com.au",
-        "password": "Asc221210%",
+        "user": "emailaddress",
+        "password": "password",
     }
     
     headers = {
