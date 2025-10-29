@@ -121,8 +121,8 @@ Once published, users can install by:
 Your Foxess V2 integration is ready to be shared with the Home Assistant community!
 
 **Your credentials used for testing:**
-- Username: eddie@toolsinabox.com.au
-- Password: Asc221210%
+- Username: email@address.com
+- Password: Password
 - Battery SOC: 89% ✅
 - PV Power: 0.37 kW ✅
 
