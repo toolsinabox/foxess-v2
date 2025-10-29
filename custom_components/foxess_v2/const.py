@@ -8,8 +8,8 @@ BASE_URL = "https://www.foxesscloud.com"
 LOGIN_URL = f"{BASE_URL}/v2/login"
 API_URL = f"{BASE_URL}/v2/api"
 
-# Update interval (5 minutes)
-UPDATE_INTERVAL = 300
+# Update interval (3 minutes instead of 5, to stay within session)
+UPDATE_INTERVAL = 180
 
 # Configuration
 CONF_USERNAME = "username"
