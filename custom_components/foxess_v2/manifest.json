@@ -1,0 +1,11 @@
+{
+  "domain": "foxess_v2",
+  "name": "Foxess V2",
+  "version": "2.0.0",
+  "documentation": "https://github.com/toolsinabox/HA-FoHA",
+  "issue_tracker": "https://github.com/toolsinabox/HA-FoHA/issues",
+  "requirements": ["aiohttp>=3.9.0"],
+  "codeowners": ["@toolsinabox"],
+  "config_flow": true,
+  "iot_class": "cloud_polling"
+}
